@@ -1,0 +1,38 @@
+[
+    {
+        "name": "QA01",
+        "vendor": "ORACLE",
+        "hostName": "smlgqa01.smartcorp.net",
+        "portNumber":"1528",
+        "dbName":"smlogqa1",
+        "userName":"CONNEX",
+        "password":"C0nnexqa_2013"
+    },
+    {
+        "name": "QA02",
+        "vendor": "SQL_SERVER",
+        "hostName": "Author #1",
+        "portNumber":"1521",
+        "dbName":"1521",
+        "userName":"1521",
+        "password":"1521"
+    },
+    {
+        "name": "QA03",
+        "vendor": "MYSQL",
+        "hostName": "Author #1",
+        "portNumber":"1528",
+        "dbName":"1521",
+        "userName":"1521",
+        "password":"1521"
+    }
+    ,{
+        "name": "QA04",
+        "vendor": "MARIADB",
+        "hostName": "10.124.29.13",
+        "portNumber":"3306",
+        "dbName":"DESKTOP_BDD_ENTERPRISE_PILOT",
+        "userName":"Z256585",
+        "password":"5h4m6hTyBP"
+    }
+]

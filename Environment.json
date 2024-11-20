@@ -1,0 +1,22 @@
+{
+	"QA01": {
+		"URL": "https://genpactonline.sharepoint.com/Pages/Home.aspx",
+		"DBConfig": {
+			"vendor": "ORACLE",
+			"hostName": "smlgqa01.smartcorp.net",
+			"portNumber": 1528,
+			"dbName": "smlogqa1",
+			"userName": "CONNEX",
+			"password": "C0nnexqa_2013"
+		},
+		"EmailConfig": {
+			"recipientEmail": "XXX@genpact.com",
+			"senderEmail": "lakshmi.makireddy@genpact.com",
+			"senderEmailPwd": "",
+			"emailSMTPServerHost": "smtp.office365.com",
+			"emailSMTPServerPort": 587,
+			"emailPOPServerHost": "outlook.office365.com",
+			"emailPOPServerPort": 995
+		}
+	}
+}	

@@ -1,0 +1,15 @@
+11/09/2018 17:14:04 com.ciox.stepdefinition.CommonOperations verified landing page as Fulfillment successfully
+11/09/2018 17:14:04 com.ciox.stepdefinition.CommonOperations Request ID showing as  as 3124564
+11/09/2018 17:14:06 com.ciox.stepdefinition.BaseStepDef waited for 2 seconds
+11/09/2018 17:14:07 com.ciox.stepdefinition.CommonOperations I clicked on the cancel request link from more options
+11/09/2018 17:14:07 com.ciox.stepdefinition.CommonOperations I selected on the cancel request reason as Duplicate on cancel reason page
+11/09/2018 17:14:08 com.ciox.stepdefinition.CommonOperations I entered the cancel request comments as Request has been cancelled by Auto team on cancel request page
+11/09/2018 17:14:08 com.ciox.stepdefinition.CommonOperations I clicked on the cancel request submit and close button on cancel request page
+11/09/2018 17:14:09 com.ciox.stepdefinition.CommonOperations Actual Message is showing as eRequestID (3124564) Cancelled
+11/09/2018 17:14:09 com.ciox.stepdefinition.CommonOperations Expected Message is showing as eRequestID (3124564) Cancelled
+11/09/2018 17:14:11 com.ciox.stepdefinition.BaseStepDef waited for 2 seconds
+11/09/2018 17:14:17 org.springframework.context.annotation.AnnotationConfigApplicationContext Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d121db3: startup date [Tue Sep 11 17:13:20 EDT 2018]; root of context hierarchy
+11/09/2018 17:14:17 org.springframework.beans.factory.support.DisposableBeanAdapter Invocation of destroy method 'shutdown' failed on bean with name 'webDriverService': org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'CIOXS43592', ip: '10.14.46.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver

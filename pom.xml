@@ -1,0 +1,284 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cvs.testautomation</groupId>
+	<artifactId>GenpactBDDMavenTest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>GenpactBDDMavenTest</name>	
+
+	<properties>
+	
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>       
+   
+    
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<cucumber.version>4.2.6</cucumber.version>
+		<selenium.version>3.141.59</selenium.version>
+		<testng.version>6.14.3</testng.version>
+		 
+        <ttaf.ui.core.version>1.0.6-SNAPSHOT</ttaf.ui.core.version>
+        <maven.surefire.plugin>2.21.0</maven.surefire.plugin>
+        <aspectj.version>1.8.10</aspectj.version>   
+	
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<name>dataproviderthreadcount</name>
+        <value>2</value>
+        
+	</properties>
+
+	<dependencies>
+	
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>4.3.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>4.3.1</version>
+    
+</dependency>
+
+		<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>4.2.6</version>
+    <scope>test</scope>
+</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>3.13.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>25.1-jre</version>
+		</dependency>
+
+	<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+				
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.activation</groupId>
+			<artifactId>activation</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+			
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    	<artifactId>spring-core</artifactId>
+		    	<version>5.0.7.RELEASE</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-context</artifactId>
+		    <version>5.0.7.RELEASE</version>
+		</dependency>
+		<dependency>
+        	<groupId>org.seleniumhq.selenium</groupId>
+	        	<artifactId>htmlunit-driver</artifactId>
+	        	<version>2.27</version>
+    	  </dependency> 
+    	  <dependency>
+         	<groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+        <dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.5</version>
+		</dependency>
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.13</version>
+		</dependency>
+			
+			<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+			</dependency>
+			
+			<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>2.3.1</version>
+		</dependency>
+		 
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.4</version>
+		</dependency>
+		 
+		<!--dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>18.0</version>
+		</dependency-->
+		<dependency>
+    		<groupId>log4j</groupId>
+    		<artifactId>log4j</artifactId>
+    		<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+			
+			
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.trivago.rta/cluecumber-report-plugin -->
+<dependency>
+    <groupId>com.trivago.rta</groupId>
+    <artifactId>cluecumber-report-plugin</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+		<dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber4-jvm</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+		
+	</dependencies>
+	<build>
+
+		<pluginManagement>
+			<plugins>	
+			
+	
+			
+		<!-- 	<plugin>
+    <groupId>com.trivago.rta</groupId>
+    <artifactId>cluecumber-report-plugin</artifactId>
+    <version>1.11.0</version>
+    <executions>
+        <execution>
+            <id>report</id>
+            <phase>post-integration-test</phase>
+            <goals>
+                <goal>reporting</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <sourceJsonReportDirectory>${project.build.directory}/cucumber-reports</sourceJsonReportDirectory>
+        <generatedHtmlReportDirectory>${project.build.directory}/generated-report</generatedHtmlReportDirectory>
+    </configuration>    
+</plugin> -->
+			
+			<plugin>
+    <groupId>com.trivago.rta</groupId>
+    <artifactId>cluecumber-report-plugin</artifactId>
+    <version>2.1.0</version>
+    <executions>
+        <execution>
+            <id>report</id>
+            <phase>post-integration-test</phase>
+            <goals>
+                <goal>reporting</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <sourceJsonReportDirectory>${project.build.directory}/cucumber-report</sourceJsonReportDirectory>
+        <generatedHtmlReportDirectory>${project.build.directory}/generated-report</generatedHtmlReportDirectory>
+    </configuration>    
+</plugin>
+			
+			
+			<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.0.0-M3</version>
+    <configuration>
+    <properties>
+        <property>
+            <name>dataproviderthreadcount</name>
+            <value>2</value>
+        </property>
+    </properties>
+</configuration>
+</plugin>
+			
+<!-- 						<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<include>**/*Runner.java</include>
+							</includes>
+							
+							
+														OPTIONAL UNCOMMENT BELOW 6 LINES - To set data provider thread count value.
+							Default is 10. For executing using parallel or forking
+							<properties>
+								<property>
+									<name>dataproviderthreadcount</name>
+									<value>2</value>
+								</property>
+							</properties> 
+														
+							OPTIONAL UNCOMMENT BELOW 3 LINES - In case of multiple runners to further reduce times. 
+							For executing using parallel
+							<parallel>classes</parallel>
+							<threadCount>2</threadCount>
+							<perCoreThreadCount>true</perCoreThreadCount>
+
+							UNCOMMENT BELOW 3 LINES - To execute using forking 
+								option
+							<forkCount>2</forkCount>
+							<reuseForks>true</reuseForks>
+
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>  -->
+        			</plugins>		
+		</pluginManagement>
+	</build>
+	
+	
+</project>
